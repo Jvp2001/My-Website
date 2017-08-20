@@ -1,0 +1,47 @@
+@import url("../other/Animiations.css");
+h1
+{
+  font-size: 50px;
+	text-align: center;
+	margin-top: 5vw;
+}
+.main
+{
+	margin-left, margin-top, margin-bottom: 10px;
+	border-radius: 5px;
+	float: left;
+	
+}
+div.Pages
+{
+	margin-top: 0vw; 
+	border-width:thin;
+	border-style: solid;
+	background-color: chartreuse;
+}
+#Sidebar
+{
+	margin: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%;
+	width: 200px;
+	float: left;
+	align-items: center;
+	height: 50vw;
+	background-color: lawngreen;
+	
+}
+
+
+header
+{
+	background-color: lightgreen;
+	margin: 10px;
+	height: auto;
+}
+
+#tempText.animation
+{
+	animation:ColourChange 20s infinite;
+}

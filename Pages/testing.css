@@ -1,0 +1,30 @@
+#wrapper
+{
+	border: 1px blue solid;
+	width: fill;
+	height: 100%
+}
+#Vertical
+{
+	border:  1px red solid;
+	margin-right: 10px;
+	float:left;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding-top: 0px;
+	overflow: hidden;
+	
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+}
+
+div.mainContent
+{
+	border:  2px green solid;
+	height: fill;
+}

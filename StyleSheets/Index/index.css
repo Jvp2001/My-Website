@@ -1,0 +1,75 @@
+@import url("../other/Animiations.css");
+
+html,body
+{
+	height: 100%;
+	margin:0;
+}
+
+h1
+{
+  font-size: 50px;
+	text-align: center;
+	margin-top: 5vw;
+}
+
+
+#wrapper
+{	
+	height: 100%;
+	border: 1px solid black;
+
+}
+
+#main
+{
+	/*margin-left,margin-right: 0px!important;*/
+	width:fill;
+	height: fill;
+	float: right;
+	background-color: lawngreen;
+
+}
+div.Pages
+{
+	margin-top: 0vw; 
+	border-width:thin;
+	border-style: solid;
+	background-color: lawngreen;
+	align-items: right;
+
+
+}
+
+div.Pages a:hover
+{
+	text-decoration-color: purple;
+}
+
+
+
+div.active
+{
+	margin: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%;
+	width: auto;
+	float: left;
+	align-items: center;
+	height: 100%;
+	background-color: lawngreen;
+	
+}
+
+header
+{
+	background-color: lawngreen;
+	margin: 10px;
+	height: auto;
+}
+
+#tempText.animation
+{
+	animation:ColourChange 20s infinite;
+}
