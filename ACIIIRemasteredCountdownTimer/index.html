@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>AC III Remasterd Countdown</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <header><h1>Assassin's Creed III Remastered Steam Release</h1></header>
+      <div class="timer-header" id="steam"><p id="steam-timer">0:0:0</p></div>
+    <script src="countdown.js"></script>
+    <script>
+       
+       let steamTimerLabel = document.getElementById("steam-timer");
+
+        let steamTimeraHandle = setInterval(() => 
+        {
+            countDown(steamTimerLabel,"March 29, 2019 17:00",this,"Have Fun!");
+        },1000);
+    </script>
+  </body>
+</html>
